@@ -1,0 +1,25 @@
+.display{
+    background-color:rgb(194, 189, 190);
+    
+    width: 80%;
+    height: 70%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-gap: 2px;
+    padding: 35px;
+}
+
+.display p {
+    background-color: rgb(236, 18, 51);
+    
+    border: black solid 2px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10vw;
+
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
